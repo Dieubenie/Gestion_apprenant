@@ -10,18 +10,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item" style=" margin-right: 35px; margin-left: 20px; text-align: center;">
-                <a class="nav-link" style="color: red; font-size: 20px;width: 200px;" href="#">
+                <a class="nav-link" style="color: red; font-size: 20px;width: 200px;" href="../index.php">
                   <button type="button" class="btn btn-outline-light" style="width: 100%; height: 40px; ">ACCUEIL</button>
                 </a>
               </li>
               <li class="nav-item" style=" margin-right: 35px; text-align: center;">
-                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="#">
+                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_apprenant">
                   <button type="button" class="btn btn-outline-light" style="width: 100%; height: 40px; ">APPRENANTS</button>
                 </a>
 
               </li>
               <li class="nav-item" style=" height: 60px; margin-right: 35px; text-align: center;">
-                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="#">
+                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_tuteur">
                   <button type="button" class="btn btn-outline-light" style="width: 100%; height: 40px; ">TUTEURS</button>
                 </a>
               </li>
