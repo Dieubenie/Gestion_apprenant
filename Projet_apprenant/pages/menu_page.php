@@ -1,7 +1,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid"  style="background-color: rgb(180, 8, 8);">
           <a class="navbar-brand" href="#">
-            <img src="image/logo-simplon.jpg" style="height: 10vh;" alt="">
+            <img src="../image/logo-simplon.jpg" style="height: 10vh;" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

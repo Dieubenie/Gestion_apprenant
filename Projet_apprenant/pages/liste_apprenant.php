@@ -9,11 +9,7 @@
 </head>
 <body>
 <?php include 'menu_page.php';?>  
-<h1 style="font-family: Castellar;"> INSEREZ UN APPRENANT</h1>
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-primary me-md-2" type="button">Button</button>
-  <button class="btn btn-primary" type="button">Button</button>
-</div>
+      <h1 style="font-family: Algerian; text-align: center;"> SOYEZ LES BIENVENUS A LA GESTIONS DES APPRENANTS</h1>
      
       <?php include 'pied.php';?>
       <?php include 'script.php';?>
