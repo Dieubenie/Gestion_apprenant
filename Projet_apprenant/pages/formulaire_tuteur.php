@@ -25,7 +25,7 @@
     <input type="number" class="form-control" placeholder="Telephone" >
   </div>
   <div class="mb-3">
-    <input type="adresse" class="form-control" placeholder="Adresse">
+    <input type="text" class="form-control" placeholder="Adresse">
   </div>
   <div class="mb-3">
     <input type="name" class="form-control" placeholder="Profession">
