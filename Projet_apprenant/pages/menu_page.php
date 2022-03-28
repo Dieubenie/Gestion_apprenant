@@ -15,13 +15,13 @@
                 </a>
               </li>
               <li class="nav-item" style=" margin-right: 35px; text-align: center;">
-                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_apprenant">
+                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_apprenant.php">
                   <button type="button" class="btn btn-outline-light" style="width: 100%; height: 40px; ">APPRENANTS</button>
                 </a>
 
               </li>
               <li class="nav-item" style=" height: 60px; margin-right: 35px; text-align: center;">
-                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_tuteur">
+                <a class="nav-link" style="color: black; font-size: 20px; width: 200px;" href="liste_tuteur.php">
                   <button type="button" class="btn btn-outline-light" style="width: 100%; height: 40px; ">TUTEURS</button>
                 </a>
               </li>

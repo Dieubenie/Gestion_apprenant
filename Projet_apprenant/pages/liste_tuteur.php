@@ -62,7 +62,7 @@ foreach ($data as $donnee) {
 </table> <br>
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
   <a href="formulaire_tuteur.php">
-  <button class="btn btn-danger me-md-2 " name="ajouter" type="button">Nouveau</button>
+  <button type="submit" class="btn btn-danger me-md-2 " name="ajouter" type="button">Nouveau</button>
   </a>
   <a href="javascript:window.print()">
   <button class="btn btn-danger " type="button">Imprimer</button>

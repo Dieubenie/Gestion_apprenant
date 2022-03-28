@@ -4,6 +4,7 @@ $host = 'localhost';
 $dbname = 'bd_gestion';
 $username = 'root';
 $password = '';
+
 if(isset($_POST['ajouter'])){
 
   try {
@@ -14,7 +15,7 @@ if(isset($_POST['ajouter'])){
     exit();
   }
 
-  // récupérer les valeurs 
+  // récupérer les valeurs
   $nom = $_POST['nom'];
   $prenom = $_POST['prenom'];
   $sexe = $_POST['sexe'];
@@ -23,7 +24,7 @@ if(isset($_POST['ajouter'])){
   $profession = $_POST['profession'];
 
   // Requête mysql pour insérer des données
-  $sql = "INSERT INTO `tuteur`(`nom`, `prenom`, `sexe`, `num_tel`, `adresse`, `profession`) VALUES (:nom,:prenom,:sexe,:num_tel,:adresse,:profession)";
+  $sql = "INSERT INTO tuteur (`nom`, `prenom`, `sexe`, `num_tel`, `adresse`, `profession`) VALUES (:nom,:prenom,:sexe,:num_tel,:adresse,:profession)";
   $res = $pdo->prepare($sql);
   $exec = $res->execute(array(":nom"=>$nom,":prenom"=>$prenom,":sexe"=>$sexe,":num_tel"=>$num_tel,":adresse"=>$adresse,":profession"=>$profession));
 

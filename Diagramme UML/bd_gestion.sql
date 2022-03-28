@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  MySQL 5.0                                     */
-/* Date de création :  21/03/2022 13:51:19                      */
+/* Date de crï¿½ation :  21/03/2022 13:51:19                      */
 /*==============================================================*/
 
 
@@ -13,7 +13,7 @@ drop table if exists tuteur;
 /*==============================================================*/
 create table apprenant
 (
-   code_apprenant       int not null,
+   code_apprenant       int not null AUTO_INCREMENT,
    code_tuteur          int not null,
    nom                  varchar(254),
    prenom               varchar(254),
@@ -29,7 +29,7 @@ create table apprenant
 /*==============================================================*/
 create table tuteur
 (
-   code_tuteur          int not null,
+   code_tuteur          int not null AUTO_INCREMENT,
    nom                  varchar(254),
    prenom               varchar(254),
    num_tel              int,
