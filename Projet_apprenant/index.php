@@ -11,8 +11,8 @@
 <?php include 'pages/menu.php';?>  
 
       <h1 style="font-family: Algerian; text-align: center;"> SOYEZ LES BIENVENUS A LA GESTIONS DES APPRENANTS</h1>
-      <div class="row">
-        <img src="image/etudiant.jpg" width="100%" height="430px" alt="">
+      <div class="col md-12">
+        <img src="image/etudiant.jpg" width="100%" height="360px" alt="">
       </div> <br>
       <?php include 'pages/pied.php';?>
       <?php include 'pages/script.php';?>
