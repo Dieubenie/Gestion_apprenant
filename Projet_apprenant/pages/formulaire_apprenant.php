@@ -11,7 +11,7 @@
 <?php include 'menu_page.php';?>  
 <h1 style="font-family: Castellar;"> INSEREZ UN APPRENANT</h1>
 <div class="container-fluid ">
-<form>
+<form action="action.php" method="post" >
   <div class="mb-3">
     <input type="name" class="form-control" placeholder="Nom" >
   </div>
@@ -37,7 +37,9 @@
   </div>
 </form>
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a href="liste_apprenant">
   <button class="btn btn-danger me-md-2 " type="button">Ajouter</button>
+  </a>
   <button class="btn btn-danger " type="button">Annuler</button>
 </div> 
 </div>
