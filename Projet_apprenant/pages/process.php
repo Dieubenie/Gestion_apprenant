@@ -1,5 +1,9 @@
 <?php
 
+$host = 'localhost';
+$dbname = 'bd_gestion';
+$username = 'root';
+$password = '';
 if(isset($_POST['ajouter'])){
 
   try {

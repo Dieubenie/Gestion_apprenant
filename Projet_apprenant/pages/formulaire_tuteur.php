@@ -22,7 +22,7 @@
     <input type="name" class="form-control" placeholder="Sexe" name="sexe">
   </div>
   <div class="mb-3">
-    <input type="number" class="form-control" placeholder="Telephone",name="num_tel" >
+    <input type="number" class="form-control" placeholder="Telephone" name="num_tel" >
   </div>
   <div class="mb-3">
     <input type="text" class="form-control" placeholder="Adresse" name="adresse">
