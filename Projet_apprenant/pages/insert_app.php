@@ -3,6 +3,7 @@
 if(isset($_POST['ajouter'])){
 
   try {
+    
   // se connecter à mysql
   $pdo = new PDO("mysql:host=localhost;dbname=bd_gestion", "root", "");
   } catch (PDOException $exc) {
