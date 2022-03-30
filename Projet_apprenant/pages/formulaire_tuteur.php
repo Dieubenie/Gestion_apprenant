@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php include 'menu_page.php';?>  
-<h1 style="font-family: Castellar;"> INSEREZ UN TUTEUR</h1>
+<h1 style="font-family: Castellar;text-align: center;"> INSEREZ UN TUTEUR</h1>
 <div class="container-fluid ">
 <form  action="insert_tut.php" method="post" >
   <div class="mb-3">
@@ -23,6 +23,7 @@
   <option selected > Sexe </option>
   <option value="Masculin">Masculin</option>
   <option value="Feminin">Feminin</option>
+  </select>
   </div>
   <div class="mb-3">
     <input type="number" class="form-control" placeholder="Telephone" name="num_tel" >
