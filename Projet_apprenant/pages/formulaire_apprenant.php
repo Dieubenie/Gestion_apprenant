@@ -32,21 +32,21 @@
   </div>
   <div class="mb-3">
   <select class="form-select mb-3" aria-label="Default select example" name="code_tuteur">
-                <?php
+    <?php
 
-                  try {
-                    // se connecter à mysql
-                    $pdo = new PDO("mysql:host=localhost;dbname=bd_gestion","root","");
-                    } catch (PDOException $exc) {
-                    echo $exc->getMessage();
-                    exit();
+     try {
+      // se connecter à mysql
+      $pdo = new PDO("mysql:host=localhost;dbname=bd_gestion","root","");
+      } catch (PDOException $exc) {
+      echo $exc->getMessage();
+       exit();
                   }
-                $tuteur = $pdo->query('SELECT * FROM tuteur');
-                while ($donnees = $tuteur -> fetch()){
-                  echo '<option value="' .$donnees['code_tuteur']. '">'. $donnees['nom']. "  " . $donnees['prenom']. '</option>';
-            }
-            ?>
-              </select>
+       $tuteur = $pdo->query('SELECT * FROM tuteur');
+        while ($donnees = $tuteur -> fetch()){
+        echo '<option value="' .$donnees['code_tuteur']. '">'. $donnees['nom']. "  " . $donnees['prenom']. '</option>';
+      }
+      ?>
+    </select>
   </div>
   <div class="d-grid gap-2 d-md-flex justify-content-md-end">
   <button type="submit" class="btn btn-danger me-md-2 " name="ajouter" type="button">Ajouter</button>

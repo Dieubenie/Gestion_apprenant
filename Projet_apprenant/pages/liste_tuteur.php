@@ -11,7 +11,7 @@
 <?php include 'menu_page.php';?>  
       <h1 style="font-family: Algerian; text-align: center;">LISTE DES TUTEURS</h1>
       <div class="container-fluid">
-      <table class="table table bordered " border="1" >
+      <table class="table table bordered ">
   <thead class="table-dark">
     <tr>
         <td>N°</td>
