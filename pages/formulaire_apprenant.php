@@ -33,6 +33,7 @@
   </div>
   <div class="mb-3">
   <select class="form-select mb-3" aria-label="Default select example" name="code_tuteur" >
+  <option value="0" selected="selected">Selectionner un tuteur</option>
     <?php
 
      try {
