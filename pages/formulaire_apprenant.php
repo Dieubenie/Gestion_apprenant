@@ -26,7 +26,7 @@
   </select>
   </div>
   <div class="mb-3">
-    <input type="number" class="form-control" placeholder="Telephone" name="num_tel">
+    <input type="number" class="form-control" placeholder="Telephone" name="num_tel" min="0">
   </div>
   <div class="mb-3">
     <input type="text" class="form-control" placeholder="Adresse" name="adresse">
