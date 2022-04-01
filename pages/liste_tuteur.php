@@ -14,13 +14,13 @@
       <table class="table table bordered " border="1">
   <thead class="table-dark">
     <tr>
-        <td>N°</td>
-        <td>NOM </td>
-        <td>PRENOM</td>
-        <td>SEXE</td>
-        <td>TELEPHONE</td>
-        <td>ADRESSE</td>
-        <td>PROFESSION</td>
+        <th>N°</th>
+        <th>NOM </th>
+        <th>PRENOM</th>
+        <th>SEXE</th>
+        <th>TELEPHONE</th>
+        <th>ADRESSE</th>
+        <th>PROFESSION</th>
     </tr>
   </thead>
   
